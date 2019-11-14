@@ -15,6 +15,15 @@
 		B98C09C3237DA65000E4A6E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98C09C1237DA65000E4A6E4 /* LaunchScreen.storyboard */; };
 		B98C09CE237DA65000E4A6E4 /* CollectionViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98C09CD237DA65000E4A6E4 /* CollectionViewTestTests.swift */; };
 		B98C09D9237DA65000E4A6E4 /* CollectionViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98C09D8237DA65000E4A6E4 /* CollectionViewTestUITests.swift */; };
+		B98C09E8237DACC800E4A6E4 /* FetchDataCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98C09E7237DACC800E4A6E4 /* FetchDataCollectionView.swift */; };
+		B98C09EB237DAE9A00E4A6E4 /* TitleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98C09EA237DAE9A00E4A6E4 /* TitleSection.swift */; };
+		B98C09F1237DB16F00E4A6E4 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98C09F0237DB16F00E4A6E4 /* Dynamic.swift */; };
+		B98C09F3237DB20500E4A6E4 /* BindingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98C09F2237DB20500E4A6E4 /* BindingTextField.swift */; };
+		B98C09F5237DB21F00E4A6E4 /* BindingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98C09F4237DB21F00E4A6E4 /* BindingLabel.swift */; };
+		B98C09F8237DB45800E4A6E4 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98C09F7237DB45800E4A6E4 /* CardCollectionViewCell.swift */; };
+		B98C09FA237DB47300E4A6E4 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98C09F9237DB47300E4A6E4 /* Card.swift */; };
+		B98C09FC237DB71B00E4A6E4 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98C09FB237DB71B00E4A6E4 /* Base.swift */; };
+		B98C09FE237DB80B00E4A6E4 /* TestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98C09FD237DB80B00E4A6E4 /* TestCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		B98C09D4237DA65000E4A6E4 /* CollectionViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98C09D8237DA65000E4A6E4 /* CollectionViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTestUITests.swift; sourceTree = "<group>"; };
 		B98C09DA237DA65000E4A6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B98C09E7237DACC800E4A6E4 /* FetchDataCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataCollectionView.swift; sourceTree = "<group>"; };
+		B98C09EA237DAE9A00E4A6E4 /* TitleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSection.swift; sourceTree = "<group>"; };
+		B98C09F0237DB16F00E4A6E4 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		B98C09F2237DB20500E4A6E4 /* BindingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTextField.swift; sourceTree = "<group>"; };
+		B98C09F4237DB21F00E4A6E4 /* BindingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingLabel.swift; sourceTree = "<group>"; };
+		B98C09F7237DB45800E4A6E4 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		B98C09F9237DB47300E4A6E4 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B98C09FB237DB71B00E4A6E4 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		B98C09FD237DB80B00E4A6E4 /* TestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +117,9 @@
 		B98C09B5237DA64400E4A6E4 /* CollectionViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				B98C09F6237DB44300E4A6E4 /* Cell */,
+				B98C09EF237DB16200E4A6E4 /* Binding */,
+				B98C09E9237DAE8A00E4A6E4 /* Model */,
 				B98C09B6237DA64400E4A6E4 /* AppDelegate.swift */,
 				B98C09B8237DA64400E4A6E4 /* SceneDelegate.swift */,
 				B98C09BA237DA64400E4A6E4 /* ViewController.swift */,
@@ -106,6 +127,7 @@
 				B98C09BF237DA65000E4A6E4 /* Assets.xcassets */,
 				B98C09C1237DA65000E4A6E4 /* LaunchScreen.storyboard */,
 				B98C09C4237DA65000E4A6E4 /* Info.plist */,
+				B98C09E7237DACC800E4A6E4 /* FetchDataCollectionView.swift */,
 			);
 			path = CollectionViewTest;
 			sourceTree = "<group>";
@@ -126,6 +148,35 @@
 				B98C09DA237DA65000E4A6E4 /* Info.plist */,
 			);
 			path = CollectionViewTestUITests;
+			sourceTree = "<group>";
+		};
+		B98C09E9237DAE8A00E4A6E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B98C09EA237DAE9A00E4A6E4 /* TitleSection.swift */,
+				B98C09F9237DB47300E4A6E4 /* Card.swift */,
+				B98C09FB237DB71B00E4A6E4 /* Base.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B98C09EF237DB16200E4A6E4 /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				B98C09F0237DB16F00E4A6E4 /* Dynamic.swift */,
+				B98C09F2237DB20500E4A6E4 /* BindingTextField.swift */,
+				B98C09F4237DB21F00E4A6E4 /* BindingLabel.swift */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
+		B98C09F6237DB44300E4A6E4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B98C09F7237DB45800E4A6E4 /* CardCollectionViewCell.swift */,
+				B98C09FD237DB80B00E4A6E4 /* TestCollectionViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +310,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98C09F5237DB21F00E4A6E4 /* BindingLabel.swift in Sources */,
+				B98C09EB237DAE9A00E4A6E4 /* TitleSection.swift in Sources */,
 				B98C09BB237DA64400E4A6E4 /* ViewController.swift in Sources */,
+				B98C09F1237DB16F00E4A6E4 /* Dynamic.swift in Sources */,
 				B98C09B7237DA64400E4A6E4 /* AppDelegate.swift in Sources */,
 				B98C09B9237DA64400E4A6E4 /* SceneDelegate.swift in Sources */,
+				B98C09FE237DB80B00E4A6E4 /* TestCollectionViewCell.swift in Sources */,
+				B98C09F3237DB20500E4A6E4 /* BindingTextField.swift in Sources */,
+				B98C09FA237DB47300E4A6E4 /* Card.swift in Sources */,
+				B98C09F8237DB45800E4A6E4 /* CardCollectionViewCell.swift in Sources */,
+				B98C09E8237DACC800E4A6E4 /* FetchDataCollectionView.swift in Sources */,
+				B98C09FC237DB71B00E4A6E4 /* Base.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
